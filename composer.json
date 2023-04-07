@@ -1,0 +1,22 @@
+{
+    "name": "dsalato/image",
+    "description": "Module for working with arrays",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dsalato",
+            "email": "d.salato@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "image\\": "src/"
+        }
+    }
+
+}
