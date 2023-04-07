@@ -1,5 +1,5 @@
 {
-    "name": "dsalato/image",
+    "name": "dsalato/session",
     "description": "Module for working with arrays",
     "type": "library",
     "license": "MIT",
@@ -15,8 +15,12 @@
     },
     "autoload": {
         "psr-4": {
-            "image\\": "src/"
-        }
+            "Session\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+
     }
 
 }
