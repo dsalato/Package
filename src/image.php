@@ -1,6 +1,6 @@
 <?php
 
-namespace SetAva;
+namespace image;
 
 trait image
 {
